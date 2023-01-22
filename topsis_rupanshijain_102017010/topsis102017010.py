@@ -109,28 +109,30 @@ def topsis(matrix, weights, impact):
 
     return matrix
 
-
-if __name__ == "__main__":
-    # Check for correct number of arguments
+def start():
+    """
+    Main function.
+    """
     if len(sys.argv) != 5:
-        print(
-            "Usage: python <program.py> <InputDataFile> <Weights> <Impacts> <ResultFileName>"
-        )
+        print("Error: Invalid number of arguments")
         sys.exit(1)
 
-    # Get command line arguments
+    # Get the input file path, weights and impacts from the command line
     input_file = sys.argv[1]
     weights = sys.argv[2].split(",")
     impacts = sys.argv[3].split(",")
     output_file = sys.argv[4]
 
-    # Validate input data
+    # Validate the input data
     matrix, weights, impacts = validate_data(input_file, weights, impacts)
 
-    # Perform TOPSIS
-    result_matrix = topsis(matrix, weights, impacts)
+    # Implement the TOPSIS method
+    result = topsis(matrix, weights, impacts)
 
-    # Save results to file
-    result_matrix.to_csv(output_file, index=False)
+    # Save the result to the output file
+    result.to_csv(output_file, index=False)
 
-    print("Result saved to {}".format(output_file))
+    print("Output saved to", output_file)
+
+if __name__ == "__main__":
+    start()

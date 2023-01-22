@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
-  name = 'topsis_rupanshi_102017010',
-  packages = ['topsis_rupanshi_102017010'],
-  version = '1.0',
+  name = 'topsis_rupanshijain_102017010',
+  packages = ['topsis_rupanshijain_102017010'],
+  version = '1.1.0',
   license='MIT',
   description = 'TOPSIS method for multi-criteria decision making',
   author = 'Rupanshi Jain',
   author_email = 'rupanshijain45678@gmail.com',
   url = 'https://github.com/rdotjain/topsis_rupanshi_102017010',
-  download_url = 'https://github.com/rdotjain/topsis_rupanshi_102017010/archive/refs/tags/v_01.tar.gz',
+  download_url = 'https://github.com/rdotjain/topsis_rupanshi_102017010/archive/refs/tags/v_110.tar.gz',
   keywords = ['topsis', 'MCDM', 'KEYWORDS'],
   install_requires=[            # I get to this in a second
           'pandas',
