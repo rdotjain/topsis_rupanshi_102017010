@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'topsis_rupanshi_102017010',
   packages = ['topsis_rupanshi_102017010'],
-  version = '0.1',
+  version = '1.0',
   license='MIT',
   description = 'TOPSIS method for multi-criteria decision making',
   author = 'Rupanshi Jain',
