@@ -4,7 +4,7 @@ setup(
   packages = ['topsis_rupanshi_102017010'],
   version = '0.1',
   license='MIT',
-  description = 'topsis_rupanshi_102017010 is a Python library for dealing with Multiple Criteria Decision Making(MCDM) problems by using Technique for Order of Preference by Similarity to Ideal Solution(TOPSIS).',
+  description = 'TOPSIS method for multi-criteria decision making',
   author = 'Rupanshi Jain',
   author_email = 'rupanshijain45678@gmail.com',
   url = 'https://github.com/rdotjain/topsis_rupanshi_102017010',
