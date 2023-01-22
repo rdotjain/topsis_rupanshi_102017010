@@ -8,7 +8,7 @@ setup(
   author = 'Rupanshi Jain',
   author_email = 'rupanshijain45678@gmail.com',
   url = 'https://github.com/rdotjain/topsis_rupanshi_102017010',
-  download_url = 'https://github.com/rdotjain/topsis_rupanshi_102017010/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/rdotjain/topsis_rupanshi_102017010/archive/refs/tags/v_01.tar.gz'
   keywords = ['topsis', 'MCDM', 'KEYWORDS'],
   install_requires=[            # I get to this in a second
           'pandas',
